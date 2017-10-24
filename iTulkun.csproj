@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFC1E052-8E2E-46A1-A2C8-03D016C1B3F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iTulkun</RootNamespace>
+    <AssemblyName>iTulkun</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.105.1, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Core.1.0.105.1\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.105.1, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.105.1\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.105.1, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.105.1\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsDatabase.cs" />
+    <Compile Include="Classes\clsGreidsla.cs" />
+    <Compile Include="Classes\clsNeydarsimi.cs" />
+    <Compile Include="Classes\clsPrenta.cs" />
+    <Compile Include="Classes\clsTolfraedi.cs" />
+    <Compile Include="Classes\clsTulkur.cs" />
+    <Compile Include="Classes\clsVerkefni.cs" />
+    <Compile Include="Classes\clsVidskiptavinur.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Forms\adalgluggi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\adalgluggi.Designer.cs">
+      <DependentUpon>adalgluggi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSkiptaTulk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSkiptaTulk.Designer.cs">
+      <DependentUpon>frmSkiptaTulk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTolfraediVerkefna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTolfraediVerkefna.Designer.cs">
+      <DependentUpon>frmTolfraediVerkefna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTolfraediVidskipta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTolfraediVidskipta.Designer.cs">
+      <DependentUpon>frmTolfraediVidskipta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\nyrTulkur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nyrTulkur.Designer.cs">
+      <DependentUpon>nyrTulkur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\nyrVidskiptavinur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\nyrVidskiptavinur.Designer.cs">
+      <DependentUpon>nyrVidskiptavinur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Leita_vid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Leita_vid.Designer.cs">
+      <DependentUpon>Leita_vid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\select_Listview1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\select_Listview1.Designer.cs">
+      <DependentUpon>select_Listview1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\uppfaeraPontun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\uppfaeraPontun.Designer.cs">
+      <DependentUpon>uppfaeraPontun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\tolfraedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\tolfraedi.Designer.cs">
+      <DependentUpon>tolfraedi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\umForritun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\umForritun.Designer.cs">
+      <DependentUpon>umForritun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\uppfaeraTulkur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\uppfaeraTulkur.Designer.cs">
+      <DependentUpon>uppfaeraTulkur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\pontun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\pontun.Designer.cs">
+      <DependentUpon>pontun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\prenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\prenta.Designer.cs">
+      <DependentUpon>prenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Forms\uppfaereVidskiptavin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\uppfaereVidskiptavin.Designer.cs">
+      <DependentUpon>uppfaereVidskiptavin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\adalgluggi.resx">
+      <DependentUpon>adalgluggi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSkiptaTulk.resx">
+      <DependentUpon>frmSkiptaTulk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTolfraediVerkefna.resx">
+      <DependentUpon>frmTolfraediVerkefna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTolfraediVidskipta.resx">
+      <DependentUpon>frmTolfraediVidskipta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nyrTulkur.resx">
+      <DependentUpon>nyrTulkur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\nyrVidskiptavinur.resx">
+      <DependentUpon>nyrVidskiptavinur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Leita_vid.resx">
+      <DependentUpon>Leita_vid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\select_Listview1.resx">
+      <DependentUpon>select_Listview1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\uppfaeraPontun.resx">
+      <DependentUpon>uppfaeraPontun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\tolfraedi.resx">
+      <DependentUpon>tolfraedi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\umForritun.resx">
+      <DependentUpon>umForritun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\uppfaeraTulkur.resx">
+      <DependentUpon>uppfaeraTulkur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\pontun.resx">
+      <DependentUpon>pontun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\prenta.resx">
+      <DependentUpon>prenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\uppfaereVidskiptavin.resx">
+      <DependentUpon>uppfaereVidskiptavin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\System.Data.SQLite.Core.1.0.105.1\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('packages\System.Data.SQLite.Core.1.0.105.1\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\System.Data.SQLite.Core.1.0.105.1\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.Data.SQLite.Core.1.0.105.1\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

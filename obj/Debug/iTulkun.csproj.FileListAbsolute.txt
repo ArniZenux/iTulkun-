@@ -1,0 +1,168 @@
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\bin\Debug\iTulkun.exe.config
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\bin\Debug\iTulkun.exe
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\bin\Debug\iTulkun.pdb
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.exe
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.pdb
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.Form3.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\bin\Debug\System.Data.SQLite.dll
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\bin\Debug\System.Data.SQLite.xml
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\bin\Debug\iTulkun.exe.config
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.exe
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.pdb
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\bin\Debug\iTulkun.exe
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\bin\Debug\iTulkun.pdb
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form1.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form2.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form3.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form4.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form5.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form6.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form7.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form8.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Form9.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Basic-forrit\iTulkun\iTulkun\0.5v\iTulkun\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.Leita_vid.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.adalgluggi.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.tolfraedi.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.umForritun.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.pontun.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.prenta.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.skodaVerkefni.resources
+C:\Basic-forrit\iTulkun\iTulkun\iTulkun\obj\Debug\iTulkun.neydarsimi.resources
+C:\Arni\iTulkun\bin\Debug\iTulkun.exe.config
+C:\Arni\iTulkun\obj\Debug\iTulkun.exe
+C:\Arni\iTulkun\obj\Debug\iTulkun.pdb
+C:\Arni\iTulkun\bin\Debug\iTulkun.exe
+C:\Arni\iTulkun\bin\Debug\iTulkun.pdb
+C:\Arni\iTulkun\bin\Debug\System.Data.SQLite.dll
+C:\Arni\iTulkun\bin\Debug\System.Data.SQLite.xml
+C:\Arni\iTulkun\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Arni\iTulkun\obj\Debug\iTulkun.adalgluggi.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.Leita_vid.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.tolfraedi.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.umForritun.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.Form3.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.pontun.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.prenta.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.skodaVerkefni.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.neydarsimi.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Arni\iTulkun\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Arni\iTulkun - 1.0\bin\Debug\iTulkun.exe.config
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.exe
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.pdb
+C:\Arni\iTulkun - 1.0\bin\Debug\iTulkun.exe
+C:\Arni\iTulkun - 1.0\bin\Debug\iTulkun.pdb
+C:\Arni\iTulkun - 1.0\bin\Debug\System.Data.SQLite.dll
+C:\Arni\iTulkun - 1.0\bin\Debug\System.Data.SQLite.xml
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.adalgluggi.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.Leita_vid.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.tolfraedi.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.umForritun.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.Form3.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.pontun.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.prenta.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.skodaVerkefni.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.neydarsimi.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Arni\iTulkun - 1.0\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.adalgluggi.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.Form3.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.Leita_vid.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.tolfraedi.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.umForritun.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.pontun.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.prenta.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.skodaVerkefni.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.neydarsimi.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.exe
+C:\Arni\iTulkun\iTulkun - 1.0\obj\Debug\iTulkun.pdb
+C:\Arni\iTulkun\iTulkun - 1.0\bin\Debug\iTulkun.exe.config
+C:\Arni\iTulkun\iTulkun - 1.0\bin\Debug\iTulkun.exe
+C:\Arni\iTulkun\iTulkun - 1.0\bin\Debug\iTulkun.pdb
+C:\Arni\iTulkun\iTulkun - 1.0\bin\Debug\System.Data.SQLite.dll
+C:\Arni\iTulkun\iTulkun - 1.0\bin\Debug\System.Data.SQLite.xml
+C:\Arni\iTulkun - 1.1\bin\Debug\iTulkun.exe.config
+C:\Arni\iTulkun - 1.1\bin\Debug\iTulkun.exe
+C:\Arni\iTulkun - 1.1\bin\Debug\iTulkun.pdb
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.adalgluggi.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.Form3.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.Leita_vid.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.tolfraedi.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.umForritun.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.pontun.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.prenta.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.skodaVerkefni.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.neydarsimi.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.Properties.Resources.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.exe
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.pdb
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.select_Listview1.resources
+C:\Arni\iTulkun - 1.1\obj\Debug\iTulkun.frmSkiptaTulk.resources
+C:\Arni\iTulkun - 1.1\bin\Debug\EntityFramework.dll
+C:\Arni\iTulkun - 1.1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Arni\iTulkun - 1.1\bin\Debug\System.Data.SQLite.dll
+C:\Arni\iTulkun - 1.1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Arni\iTulkun - 1.1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Arni\iTulkun - 1.1\bin\Debug\EntityFramework.xml
+C:\Arni\iTulkun - 1.1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Arni\iTulkun - 1.1\bin\Debug\System.Data.SQLite.xml
+C:\Arni\iTulkun - 1.1\bin\Debug\System.Data.SQLite.dll.config
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\iTulkun.exe.config
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\iTulkun.exe
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\iTulkun.pdb
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\EntityFramework.dll
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\EntityFramework.SqlServer.dll
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\System.Data.SQLite.dll
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\EntityFramework.xml
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\EntityFramework.SqlServer.xml
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\System.Data.SQLite.xml
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\bin\Debug\System.Data.SQLite.dll.config
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.csprojResolveAssemblyReference.cache
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.adalgluggi.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.frmSkiptaTulk.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Form3.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.nyrVidskiptavinur.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Leita_vid.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.select_Listview1.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.uppfaeraPontun.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.tolfraedi.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.umForritun.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.uppfaeraTulkur.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.pontun.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.prenta.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Properties.Resources.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.csproj.GenerateResource.Cache
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.exe
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.pdb
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Forms.uppfaereVidskiptavin.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Forms.frmTolfraediVerkefna.resources
+C:\ZOZ ehf\Hugbúnaðar\iTulkun - 1.1\obj\Debug\iTulkun.Forms.frmTolfraediVidskipta.resources

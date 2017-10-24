@@ -1,0 +1,206 @@
+iTúlkun 
+
+Árni Ingi Jóhannesson - Forritari. 
+
+Breytingarsaga 
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+iTúlkun 1.3 - 
+ *Prenta allar verkefni á viku 
+ *Viðskiptavinur listi svipað og túlkslisti. 
+ *Ártölur er raða í röðum. 
+   ListView sem hægt að velja t.d. Nr eða Dagur. 
+ *Aðalgluggi
+	-Login og password
+ *Staða verkefna
+	-Skipta verkefni
+        -Fell verkefni 
+        -Mæta ekki 
+ *Laga og breyta kóða - style.
+ *Lagfæring leitunarvél - neyðarsími. 
+ *Tölfræði 
+	Með grafík , súlu- og kökurit 
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+
+iTúlkun 1.2 - 
+ 0% - sleppa - *Copy og paste með nýju númer
+ 100% *Skipta um túlkur
+ *Prenta rétt form og upplýsingar
+ *Tölfræði 
+	100% -Túlkarar
+	-Vettvangur
+	-Verkefni
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Lokið 
+
+iTúlkun 1.1  -  
+100%	- Túlkaþjónustukerfi 1.1 
+
+TulkurSHH.DB (Database)
+100%
+	-tblVinna 
+		NR 		INT(pri)
+		KT		TEXT
+		VINNA 		INT	( 1/0 ) (1 = vinna, 0 = skipta um túlk) 
+		VETTVANGUR 	TEXT	(nafn af vettvangi)
+		MAETA 		INT	( 1/0 ) (1 = Döff mæta, 0 = Döff mæta ekki )
+		Foreign(NR) ref tblVerkefni(NR)
+		Foreign(KT) ref tblTulkur(KT)
+	-tblTulkur
+		KT 		TEXT(pri)
+		NAFN 		TEXT
+		SIMI		TEXT
+		NETFANG		TEXT
+	-tblVerkefni
+		NR	 	INT(pri)
+		HEITI		TEXT
+		STADUR		TEXT
+		DAGUR		TEXT
+		TIMI_BYRJA	TEXT
+		TIMI_ENDIR	TEXT
+	-tblPanta
+		NR		INT (pri)
+		KT		TEXT
+		Foreign(NR) ref tblVerkefni(NR)
+		Foreign(KT) ref tblVidskiptavinir(KT)
+	-tblVidskiptavinir
+		KT 		TEXT(pri)
+		NAFN		TEXT
+		SIMI		TEXT
+		NETFANG		TEXT
+	-tblGreidsla
+		NR 		INT(pri)
+		GREIDSLA	TEXT
+		VERD		TEXT
+		Foreign(NR) ref tblVerkefni(NR)
+
+---Breyting vegna nýrra TulkurSHH.db
+100%	-clsTulkur.cs
+100%	-clsVerkefni.cs
+100%	-clsVidskiptavinir.cs
+100%	-clsTolfraedi.cs
+100%	-clsPrenta.cs
+100%	-slitin clsNeydarsimi.cs
+100%	-clsGreidsla.cs
+
+Aðalgluggi 
+70%     - Flýtileiðir. 
+            100% -Ný pöntun
+            100% -Nýr túlkur
+            100% -Nýr viðskiptavinur
+             0% -Tölfræði verkefna
+             0% -Tölfræði túlka 
+
+100% 	- fjöldi túlka
+100% 	- fjöldi viðskiptavina
+100%	- lokið verkefni
+100%	- ólokið verkefni
+0%	- full size screen
+100% 	- tabs
+         - Verkefni og Táknmálstúlkur
+100%    - útlit breyting
+          100% - staða verkefni
+             100%  -virkur
+          100% - staða meðlima
+             100%  -virkur
+
+#Ný Pöntun
+100%	- Mæta, Vinna, Vettvangur í clsTulkur.cs
+100% 	- Greiðsla
+100%	- Opna nýr gluggi með staðfesting 
+	100%  - virkur
+
+#Uppfæra pöntun
+100%	- Greiðsla
+100%	- Open nýr gluggi með staðfesting
+100%	- Virkur
+
+#Á að breyta eða prenta? 
+100% 	- Breyta pöntun
+ 100%	  - Virkur
+100%	- Verkefni fell
+ 100%	  - Virkur 
+100%	- Skipta um túlk
+ 100%	  - Virkur
+100% 	- Viðskiptavinur hættur við
+ 100%	  - Virkur 
+100%	- Prenta
+	  - Virkur
+
+#Skipta um túlk
+ sjá iTúlkun 1.2
+
+#Prenta
+ sjá iTúlkun 1.2 og 1.3
+
+#tab(verkefni) Verkefni í ListView3 
+100%	- öfugt röðun
+100%	- Bæta nafn viðskiptavins
+100%	- Bæta númer verkefna.
+100%	- Bæta nafn túlka. 	
+100%	- MouseClickDouble
+		- Button prenta eitt verkefni.
+		  - virkur	
+	100%	- Button breyta 
+		  - virkur
+	100% 	- Button - skipta um túlk 
+		  - virkur
+		  - afrita og nýtt númer. 		
+	100%	- Button afpanta	
+	100%	  - virkur
+	100%	- litur 
+		100%	rauður   : lokið 
+		100%	gulur    : væntalega
+			grænn    : núverandi dagsverks 	
+			gráa     : fellur niður
+			dökkgráa : viðskiptavinur mæta ekki. 
+                        blá      : skipta túlk.
+
+#tab(túlkur) ListView1
+100%	- öfugt röðun
+100%	- MouseClickDouble
+		- Button prenta eitt verkefni.
+		  - virkur	
+	100%	- Button breyta 
+	100%	  - virkur
+	100% 	- Button - skipta um túlk 
+		  - virkur
+		  - afrita og nýtt númer. 		
+	100%	- Button afpanta	
+	100%	  - virkur
+	100%1	- litur 
+		100%	rauður   : lokið 
+		100%	gulur    : væntalega
+			grænn    : núverandi dagsverks 	
+			gráa     : fellur niður
+			dökkgráa : viðskiptavinur mæta ekki. 
+
+#tolfraedi - menu
+100% - tab(túlkur)
+	100%	-Neyðarsimi eyða. 
+	100% 	-Fjöldi verkefna falla
+	100%	-Upplýsingar staða verkefna			
+
+100% - tab(vettvangur)
+100% - Tölfræði virkar
+
+100% - tab (árstíð) 
+50%  - tölfræði virkar
+
+Menu-viðskiptavinir
+	- Leitavél virkur eins og neyðarsimi 1.5
+		
+Menu-túlkur
+	- Leitavél virkur eins og neyðarsimi 1.5
+100%	-eyða "skoða verkefni"
+100%	-eyða "neyðarsimi"
+
+túlkur 
+100%	- eyða "Er túlkur fari í frí?"
+
+100% 	-Neyðarsími.cs fjarlægð
